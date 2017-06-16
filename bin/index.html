@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html style="background: #1A9389">
+<head>
+	<meta charset='utf-8'/>
+	<title>超级水稻神偷时代</title>
+	<meta name="description" content="超级水稻，超级水稻神偷时代，2017最火爆种植游戏。" />
+  <meta name="keywords" content="超级水稻|超级水稻神偷时代|农场|种植" />
+	<meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'/>
+	<meta name='apple-mobile-web-app-capable' content='yes' />
+	<!--<meta name='full-screen' content='true' />-->
+	<!--<meta name='screen-orientation' content='portrait' />-->
+	<!--<meta name='x5-fullscreen' content='true' />-->
+	<meta name='360-fullscreen' content='true' />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<!--<meta name="x5-fullscreen" content="true">-->
+	<meta name="browsermode" content="application">
+	<!--<meta name="x5-page-mode" content="app">-->
+	<meta http-equiv='expires' content='0' />
+	<link rel="icon" href="./ui/fav.ico" type="image/x-icon" />
+	<style>
+		
+		#ajaxloading{
+			width: 100%;
+			height: 100%;
+			/*background: rgba(0,0,0,0) url("./res/html/images/game/xl_load.gif") no-repeat center;*/
+			background-size: 8%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 9999999;
+			display: none
+		}
+		
+	</style>
+</head>
+<body style="max-width: 640px;">
+	<div id="qq_share" style="display: none"></div>
+	<!-- 请求过程动画 -->
+	<div id="ajaxloading">
+	</div>
+	<!--加载小动画-->
+	<div class="spinner">
+		<div class="rect1"></div>
+		<div class="rect2"></div>
+		<div class="rect3"></div>
+		<div class="rect4"></div>
+		<div class="rect5"></div>
+	</div>
+	<!--公告信息框-->
+	<div id="announce" class="hide"></div>
+	<style>
+		/*页面加载动画*/
+.spinner {
+  -webkit-transition: all linear 300ms;
+  margin:auto;
+  padding-top: 7rem;
+  background: #1A9389;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 0 !important;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #F4CE09;
+  height: 26px;
+  width: 10px;
+	border-radius:50%; 
+  display: inline-block;
+
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes stretchdelay {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% {
+       transform: scaleY(1.0);
+       -webkit-transform: scaleY(1.0);
+     }
+}
+.spinner.hide{
+  -webkit-transform: scale(0);
+}
+#announce{
+	/*transition:all linear 300ms;*/
+	height: 100%;
+	width: 100%;
+	-webkit-transform: scale(1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	background: rgba(0,0,0,.618);
+}
+#announce #iframeBox{
+	width: 92%;
+	height: 84%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 999999;
+	max-width: 500px;
+	border-radius: 9px;
+	overflow: hidden;
+}
+#announce.hide{
+	background: none !important;
+	display: none;
+}
+#announce.hide #iframeBox{
+	-webkit-transform: scale(0);
+}
+#announce.hide img{
+	display: none;
+}
+	</style>
+    <!-- Protobuf -->
+    <!--<script type="text/javascript" src="libs/bytebuffer.js"></script>
+    <script type="text/javascript" src="libs/protobuf.js"></script>
+	-->
+	  
+	<!--核心包，封装了显示对象渲染，事件，时间管理，时间轴动画，缓动，消息交互,socket，本地存储，鼠标触摸，声音，加载，颜色滤镜，位图字体等-->
+	<script type="text/javascript" src="libs/min/laya.core.min.js"></script>
+	<!--封装了webgl渲染管线，如果使用webgl渲染，可以在初始化时调用Laya.init(1000,800,laya.webgl.WebGL);-->
+    <!--<script type="text/javascript" src="libs/laya.webgl.js"></script>-->
+	<!--是动画模块，包含了swf动画，骨骼动画等-->
+    <!--<script type="text/javascript" src="libs/laya.ani.js"></script>-->
+	<!--包含更多webgl滤镜，比如外发光，阴影，模糊以及更多-->
+    <!--<script type="text/javascript" src="libs/laya.filter.js"></script>-->
+	<!--封装了html动态排版功能-->
+    <script type="text/javascript" src="libs/min/laya.html.min.js"></script>
+	<!--粒子类库-->
+    <!--<script type="text/javascript" src="libs/laya.particle.js"></script>-->
+	<!--提供tileMap解析支持-->
+    <!--<script type="text/javascript" src="libs/laya.tiledmap.js"></script>-->
+	<!--提供了制作UI的各种组件实现-->
+    <script type="text/javascript" src="libs/min/laya.ui.min.js"></script>
+	
+	<!-- 物理引擎matter.js -->
+  <!--<script type="text/javascript" src="libs/matter.js"></script>-->
+  <!--<script type="text/javascript" src="libs/matter-RenderLaya.js"></script>-->
+	<!--自定义的js(src文件夹下)文件自动添加到下面jsfile模块标签里面里，js的顺序可以手动修改，修改后保留修改的顺序，新增加的js会默认依次追加到标签里-->
+	<!--删除标签，ide不会自动添加js文件，请谨慎操作-->
+	
+	<script src="../src/ui/layaUI.max.all.js"></script>
+
+	<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>	
+	<!--jsfile--startTag-->
+	<script src="../src/GloVar.js"></script>
+	<script src="../src/share_plugin.js"></script>
+	<script src="../src/FriendsSeed.js"></script>
+	<script src="../src/FriendTop.js"></script>
+	<!--<script src="../src/ExchangeCenter.js"></script>-->
+	<script src="../src/Top.js"></script>
+	<script src="../src/EnterPot.js"></script>
+	<script src="../src/Log.js"></script>
+	<script src="../src/CreateRole.js"></script>
+	<script src="../src/Regist.js"></script>
+	<script src="../src/Shop.js"></script>
+	<script src="../src/TipDialog.js"></script>
+	<script src="../src/Http.js"></script>
+	<script src="../src/Page.js"></script>
+	<script src="../src/RankList.js"></script>
+	<script src="../src/Dialog.js"></script>
+	<script src="../src/SignIn.js"></script>
+	<script src="../src/MyHomeOrchard.js"></script>
+	<!--<script src="../src/FarmBtn.js"></script>-->
+	<script src="../src/Service.js"></script>
+	<script src="../src/Header.js"></script>
+	<script src="../src/Statue.js"></script>
+	<script src="../src/Datas.js"></script>
+	<script src="../src/Seed.js"></script>
+	<script src="../src/FriendsLand.js"></script>
+	<script src="../src/FriendsFarm.js"></script>
+	<script src="../src/FriendList.js"></script>
+	<script src="../src/LoadAni.js"></script>
+	<script src="../src/LogIn.js"></script>
+	<!--<script src="../src/Pet.js"></script>-->
+	<script src="../src/Land.js"></script>
+	<script src="../src/BtnFeed.js"></script>
+	<script src="../src/Farm.js"></script>
+	<script src="../src/BindMobile.js"></script>
+	<script src="../src/LayaSample.js"></script>
+	<script src="../src/GreenHandDia.js"></script>
+	<script src="../src/GreenHandGuide.js"></script>
+	<script src="../src/Dog.js"></script>
+
+
+	<!-- 微信分享接口 -->
+	<input type="hidden" id="afs_scene">
+	<input type="hidden" id="afs_token">
+  <script src="../src/jsapi.js"></script>
+	<!--jsfile--endTag-->
+</body>
+</html>

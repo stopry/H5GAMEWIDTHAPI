@@ -1,0 +1,685 @@
+{
+    "x":0,
+    "type":"View",
+    "selectedBox":1,
+    "props":{"sceneWidth":300,"sceneHeight":300,"sceneColor":"#ffffff"},
+    "nodeParent":-1,
+    "label":"View",
+    "isOpen":true,
+    "isDirectory":true,
+    "isAniNode":true,
+    "hasChild":true,
+    "compId":1,
+    "child":[
+        {
+            "x":15,
+            "type":"GraphicNode",
+            "props":{"y":0,"x":1,"skin":"dog/za (75).png","anchorY":0.5,"anchorX":0.5},
+            "nodeParent":1,
+            "label":"GraphicNode",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":2,
+            "child":[
+                ]
+        }],
+    "animations":[
+        {
+            "nodes":[
+                {
+                    "target":2,
+                    "keyframes":{
+                        "y":[
+                            {
+                                "value":0,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":2,
+                                "key":"y",
+                                "index":0
+                            }],
+                        "x":[
+                            {
+                                "value":0,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":2,
+                                "key":"x",
+                                "index":0
+                            },
+                            {
+                                "value":1,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":2,
+                                "key":"x",
+                                "index":20
+                            }],
+                        "skin":[
+                            {
+                                "value":"dog/za (1).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":0
+                            },
+                            {
+                                "value":"dog/za (2).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":1
+                            },
+                            {
+                                "value":"dog/za (3).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":2
+                            },
+                            {
+                                "value":"dog/za (4).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":3
+                            },
+                            {
+                                "value":"dog/za (5).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":4
+                            },
+                            {
+                                "value":"dog/za (6).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":5
+                            },
+                            {
+                                "value":"dog/za (7).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":6
+                            },
+                            {
+                                "value":"dog/za (8).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":7
+                            },
+                            {
+                                "value":"dog/za (9).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":8
+                            },
+                            {
+                                "value":"dog/za (10).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":9
+                            },
+                            {
+                                "value":"dog/za (11).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":10
+                            },
+                            {
+                                "value":"dog/za (12).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":11
+                            },
+                            {
+                                "value":"dog/za (13).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":12
+                            },
+                            {
+                                "value":"dog/za (14).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":13
+                            },
+                            {
+                                "value":"dog/za (15).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":14
+                            },
+                            {
+                                "value":"dog/za (16).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":15
+                            },
+                            {
+                                "value":"dog/za (17).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":16
+                            },
+                            {
+                                "value":"dog/za (18).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":17
+                            },
+                            {
+                                "value":"dog/za (19).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":18
+                            },
+                            {
+                                "value":"dog/za (20).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":19
+                            },
+                            {
+                                "value":"dog/za (21).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":20
+                            },
+                            {
+                                "value":"dog/za (22).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":21
+                            },
+                            {
+                                "value":"dog/za (23).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":22
+                            },
+                            {
+                                "value":"dog/za (24).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":23
+                            },
+                            {
+                                "value":"dog/za (25).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":24
+                            },
+                            {
+                                "value":"dog/za (26).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":25
+                            },
+                            {
+                                "value":"dog/za (27).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":26
+                            },
+                            {
+                                "value":"dog/za (28).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":27
+                            },
+                            {
+                                "value":"dog/za (29).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":28
+                            },
+                            {
+                                "value":"dog/za (30).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":29
+                            },
+                            {
+                                "value":"dog/za (31).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":30
+                            },
+                            {
+                                "value":"dog/za (32).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":31
+                            },
+                            {
+                                "value":"dog/za (33).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":32
+                            },
+                            {
+                                "value":"dog/za (34).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":33
+                            },
+                            {
+                                "value":"dog/za (35).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":34
+                            },
+                            {
+                                "value":"dog/za (36).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":35
+                            },
+                            {
+                                "value":"dog/za (37).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":36
+                            },
+                            {
+                                "value":"dog/za (38).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":37
+                            },
+                            {
+                                "value":"dog/za (39).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":38
+                            },
+                            {
+                                "value":"dog/za (40).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":39
+                            },
+                            {
+                                "value":"dog/za (41).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":40
+                            },
+                            {
+                                "value":"dog/za (42).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":41
+                            },
+                            {
+                                "value":"dog/za (43).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":42
+                            },
+                            {
+                                "value":"dog/za (44).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":43
+                            },
+                            {
+                                "value":"dog/za (45).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":44
+                            },
+                            {
+                                "value":"dog/za (46).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":45
+                            },
+                            {
+                                "value":"dog/za (47).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":46
+                            },
+                            {
+                                "value":"dog/za (48).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":47
+                            },
+                            {
+                                "value":"dog/za (49).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":48
+                            },
+                            {
+                                "value":"dog/za (50).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":49
+                            },
+                            {
+                                "value":"dog/za (51).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":50
+                            },
+                            {
+                                "value":"dog/za (52).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":51
+                            },
+                            {
+                                "value":"dog/za (53).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":52
+                            },
+                            {
+                                "value":"dog/za (54).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":53
+                            },
+                            {
+                                "value":"dog/za (55).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":54
+                            },
+                            {
+                                "value":"dog/za (56).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":55
+                            },
+                            {
+                                "value":"dog/za (57).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":56
+                            },
+                            {
+                                "value":"dog/za (58).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":57
+                            },
+                            {
+                                "value":"dog/za (59).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":58
+                            },
+                            {
+                                "value":"dog/za (60).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":59
+                            },
+                            {
+                                "value":"dog/za (61).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":60
+                            },
+                            {
+                                "value":"dog/za (62).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":61
+                            },
+                            {
+                                "value":"dog/za (63).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":62
+                            },
+                            {
+                                "value":"dog/za (64).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":63
+                            },
+                            {
+                                "value":"dog/za (65).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":64
+                            },
+                            {
+                                "value":"dog/za (66).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":65
+                            },
+                            {
+                                "value":"dog/za (67).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":66
+                            },
+                            {
+                                "value":"dog/za (68).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":67
+                            },
+                            {
+                                "value":"dog/za (69).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":68
+                            },
+                            {
+                                "value":"dog/za (70).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":69
+                            },
+                            {
+                                "value":"dog/za (71).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":70
+                            },
+                            {
+                                "value":"dog/za (72).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":71
+                            },
+                            {
+                                "value":"dog/za (73).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":72
+                            },
+                            {
+                                "value":"dog/za (74).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":73
+                            },
+                            {
+                                "value":"dog/za (75).png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":2,
+                                "key":"skin",
+                                "index":74
+                            }],
+                        "anchorY":[
+                            {
+                                "value":0.5,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":2,
+                                "key":"anchorY",
+                                "index":0
+                            }],
+                        "anchorX":[
+                            {
+                                "value":0.5,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":2,
+                                "key":"anchorX",
+                                "index":0
+                            }]
+                    }
+                }],
+            "name":"za_1",
+            "id":1,
+            "frameRate":18,
+            "action":0
+        }]
+}
